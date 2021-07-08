@@ -1,0 +1,130 @@
+.bg-light{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.nav-item{
+    cursor: pointer;
+    padding-left: 20px;
+}
+.nav-link{
+    color: black !important;
+    cursor: pointer;
+}
+.View-Work{
+    background-color: black;
+    color: white !important;
+    border-radius: 13px;
+    margin-right: 12px;
+}
+.Gradient-background {
+	background: linear-gradient(-45deg, #e0a28f, #dd89a9, #90cce2, #aaf0df);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.text-dark{
+    color: #282d31!important;
+    font-weight: 700;
+    font-size: 87px;
+    padding-left: 143px;
+    padding-right: 152px;
+    justify-content: space-between;
+    padding-left: 295px;
+    font-family: sans-serif;
+    padding-top: 120px;
+}
+.text-light{
+    color: #6e7173!important;
+    font-weight: 300;
+    font-size: 34px;
+    padding-right: 152px;
+    justify-content: space-between;
+    padding-left: 295px;
+    font-family: sans-serif;
+}
+.View-Work-1{
+    background-color: black;
+    color: white !important;
+    border-radius: 13px;
+    margin-right: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 295px;
+    margin-top: 20px;
+    margin-bottom: 83px;
+}
+.four-section-text{
+    border: black solid 1px;
+    border-radius: 16px; 
+    padding-right: 35px;
+    margin-bottom: 140px;
+    padding-top: 79px;   
+}
+.heading-4-text{
+    font-size: 65px;
+    padding-left: 20px;
+}
+.first-text{
+    
+    margin-bottom: 140px;
+    font-size: 23px;
+    font-weight: 350;
+}
+.form-control {
+    border: 1px solid #eeeff1;
+    margin-bottom: 18px;
+    padding: 30px 20px 30px 15px;
+    border-radius: 8px;
+    background-color: hsla(0,0%,100%,.5)
+} 
+.form-group{
+    font-size: small;
+    font-weight: 500;
+    color: #a2a4aa;;
+}
+.text-area{
+    padding-top: 10px;
+}
+.heading-3-text{
+    padding-left: 12px;
+    font-size: 45px;
+    padding-bottom: 25px;
+}   
+.page-section{
+    margin-top: 100px;
+   padding-bottom: 10px;
+    padding-left: 215px;
+    padding-right: 215px;
+    
+}
+.btn-primary{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    background-color: black;
+    border-color: black;
+}
+.footer{
+    background-color:#292929;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-p{
+    margin-bottom: 0px;
+}

@@ -1,0 +1,126 @@
+.service-text{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #ced1df;
+    border-radius: 8px;
+    background-color: #eeeff1;
+    background-image: none;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    opacity: 1;
+    color: #000;
+    font-size: 16px;
+    line-height: 39px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.bg-light{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.nav-item{
+    cursor: pointer;
+    padding-left: 20px;
+}
+.nav-link{
+    color: black !important;
+}
+.View-Work{
+    background-color: black;
+    color: white !important;
+    border-radius: 13px;
+    margin-right: 12px;
+}
+.image-box{
+    height: 167px;
+    width: 203px;
+    margin-top: 10px;
+}
+
+
+.first-section{
+    margin-top: 100px;
+    margin-bottom: 140px;
+    font-size: 20px;
+}
+.page-section{
+    margin-top: 100px;
+   padding-bottom: 10px;
+    padding-left: 215px;
+    padding-right: 215px;
+    
+}
+.container-fluid{
+    background-color: #eeeff1;
+}
+.heading-3-text{
+    padding-left: 12px;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+.first-text{
+    
+    margin-bottom: 140px;
+    font-size: 23px;
+    font-weight: 350;
+}
+.heading-1-text{
+    font-size: 65px;
+}
+.heading-2-text{
+    font-size: 45px;
+}
+.heading-4-text{
+font-size: 65px;
+padding-left: 20px;
+}
+.four-section-text{
+    border: black solid 1px;
+    border-radius: 16px; 
+    padding-right: 35px;
+    margin-bottom: 140px;
+    padding-top: 79px;   
+}
+.service-text-box{
+    padding-left: 62px;
+}
+.form-control {
+    border: 1px solid #eeeff1;
+    margin-bottom: 18px;
+    padding: 30px 20px 30px 15px;
+    border-radius: 8px;
+    background-color: hsla(0,0%,100%,.5)
+} 
+.form-group{
+    font-size: small;
+    font-weight: 500;
+    color: #a2a4aa;;
+}
+.text-area{
+    padding-top: 10px;
+}
+
+.btn-primary{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    background-color: black;
+    border-color: black;
+}
+.footer{
+    background-color:#292929;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-p{
+    margin-bottom: 0px;
+}
+   
