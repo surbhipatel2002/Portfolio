@@ -1,3 +1,6 @@
+.container-fluid{
+    background-color: #eeeff1;
+}
 .bg-light{
     padding-left: 25px;
     padding-right: 25px;
@@ -13,22 +16,28 @@
 .View-Work{
     background-color: black;
     color: white !important;
-    border-radius: 13px;
+    border-radius: 10px;
     margin-right: 12px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 @media only screen and (max-width: 992px) {
     .navbar-nav{
         text-align: center;  
     }
     .View-Work{
-        margin-left: 98px;
-        margin-right: 92px;
+        margin-left: 85px;
+        margin-right: 79px;
     }
 }
 .Gradient-background {
 	background: linear-gradient(-45deg, #e0a28f, #dd89a9, #90cce2, #aaf0df);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+    animation: gradient 2s ease infinite;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 @keyframes gradient {
@@ -43,7 +52,7 @@
 	}
 }
 .text-dark{
-    color: #282d31!important;
+    color: #1a1c20!important;
     font-weight: 700;
     font-size: 87px;
     padding-left: 143px;
@@ -56,18 +65,18 @@
 @media only screen and (max-width: 992px) {
     .text-dark{
         font-size: 59px;
-        padding-left: 27px !important;
+        padding-left: 15px !important;
         padding-right: 17px;
+        padding-top: 30px;
     }
 }
 .text-light{
     color: #6e7173!important;
-    font-weight: 300;
-    font-size: 34px;
+    font-weight: 350;
+    font-size: 23px;
     padding-right: 152px;
     justify-content: space-between;
     padding-left: 295px;
-    font-family: sans-serif;
 }
 @media only screen and (max-width: 992px) {
     .text-light{
@@ -76,35 +85,64 @@
         padding-left: 25px;
     }
     .View-Work-1{
-        margin-left: 25px !important;
+        margin-left: 0px !important;
     }
     .page-section{
-        padding-left: 5px !important;
+        padding-left: 0px !important;
         padding-right: 0px !important;
+        margin-top: 10px !important;
+    }
+    .first-text{
+        margin-bottom: 30px !important;
+    }
+    .four-section-text{
+        margin-left: 18px !important;
+        margin-right: 18px !important;
+        padding-right: 0px !important;
+        margin-bottom: 10px !important;
+        padding-left: 0px !important;
+        padding-top: 10px !important;
+        text-align: left;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    .heading-3-text{
+        padding-left: 2px !important;
+        padding-right: 2px !important;
     }
 }
 .View-Work-1{
     background-color: black;
     color: white !important;
-    border-radius: 13px;
+    border-radius: 10px;
     margin-right: 12px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 13px;
+    padding-bottom: 13px;
     margin-left: 295px;
     margin-top: 20px;
     margin-bottom: 83px;
 }
+.View-Work-1:hover{
+    background-color: black;
+    border-color: black;
+}
+.View-Work-1:focus{
+    box-shadow: none;
+    background-color: black;
+}
 .four-section-text{
     border: black solid 1px;
     border-radius: 16px; 
-    padding-right: 35px;
-    margin-bottom: 140px;
-    padding-top: 79px;   
+    padding-right: 90px;
+    margin-bottom: 74px;
+    padding-top: 79px; 
+    padding-left: 70px; 
 }
 .heading-4-text{
-    font-size: 65px;
+    font-size: 45px;
     padding-left: 20px;
 }
 .first-text{
@@ -118,12 +156,13 @@
     margin-bottom: 18px;
     padding: 30px 20px 30px 15px;
     border-radius: 8px;
-    background-color: hsla(0,0%,100%,.5)
+    background-color: hsla(0,0%,100%,.5);
+    font-size: 20px;
 } 
 .form-group{
-    font-size: small;
-    font-weight: 500;
-    color: #a2a4aa;;
+    font-size: 23px;
+    font-weight: 350;
+    color: #6a6c73;
 }
 .text-area{
     padding-top: 10px;
@@ -141,12 +180,22 @@
     
 }
 .btn-primary{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 7px;
-    padding-bottom: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     background-color: black;
     border-color: black;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    background-color: black;
+    border-color: black;
+}
+.btn-primary:focus{
+    background-color: black;
+    border-color: black;
+    box-shadow: none;
 }
 .footer{
     background-color:#292929;

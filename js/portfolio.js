@@ -7,6 +7,13 @@ function homepage() {
 function contactpage() {
   window.location.href ="contact.html" ;
 }
+function project() {
+  window.location.href ="project.html" ;
+}
 // By:
 // Manuel Pinto
 // https://manuelpinto.in
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});

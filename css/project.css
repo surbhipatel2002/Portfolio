@@ -1,0 +1,114 @@
+.container-fluid{
+    background-color: #eeeff1;
+    padding-bottom: 145px;
+}
+.bg-light{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+}
+.nav-item{
+    cursor: pointer;
+    padding-left: 20px;
+}
+.nav-link{
+    color: black !important;
+    cursor: pointer;
+}
+.View-Work{
+    background-color: black;
+    color: white !important;
+    border-radius: 10px;
+    margin-right: 12px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.more_vert{
+    padding-left: 53px;
+}
+.link-image{
+    font-size: 29px;
+    margin-left: -  8px;
+}
+.link-image-1{
+    font-size: 29px;
+    margin-left: 10px;
+}
+.tooltip-image{
+    color: #242525;
+}
+.tooltip-image:hover{
+    color: black;
+}
+.card{
+    width: 400px;
+    margin-top: 30px;   
+}
+.card-deck{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.Gradient-background {
+	background: linear-gradient(-45deg, #e0a28f, #dd89a9, #90cce2, #aaf0df);
+	background-size: 400% 400%;
+    animation: gradient 2s ease infinite;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.text-dark{
+    color: #1a1c20!important;
+    font-weight: 700;
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+@media only screen and (max-width: 992px) {
+    .text-dark{
+        font-size: 59px;
+        padding-left: 27px !important;
+        padding-right: 17px;
+        padding-top: 30px;
+    }
+    .card-deck{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .container-fluid{
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .card{
+        width: 360px;
+    }
+    .View-Work{
+        margin-left: 82px;
+        margin-right: 82px;
+    }
+}
+.card-body{
+    padding: 0px;
+}
+.card-title {
+    margin-bottom: .75rem;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.card-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 23px;
+}
