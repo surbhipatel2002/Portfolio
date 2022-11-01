@@ -1,3 +1,3 @@
 # Portfolio
 
-https://surabhipatel2002.github.io/Portfolio/
+https://surbhipatel2002.github.io/Portfolio/
